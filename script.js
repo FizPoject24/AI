@@ -335,6 +335,10 @@ if (question.includes("tinggi") && question.includes("segitiga") && question.inc
     reply = "Sama-sama! 😊";
   } else if (question.includes("siapa presiden")) {
     reply = "Saat ini presiden Indonesia adalah Joko Widodo (data sampai 2024).";
+  } else if (question.toLowerCase().includes("apa saja yang bisa kamu kerjakan")) {
+  reply = "Berikut adalah hal-hal yang bisa saya bantu: Matematika Dasar dan Bangun Datar, Operasi pecahan (penjumlahan/pengurangan dengan penyebut sama), Menghitung luas dan keliling pada bangun datar, Konversi satuan panjang (meter, cm, km), Menentukan diagonal dan sisi dari luas (persegi & persegi panjang), Menghitung tinggi segitiga dari luas segitiga, Pengertian berbagai bangun datar (segitiga, persegi, dll.), Pengertian satuan panjang, luas, dan volume, serta Operasi Aritmatika Umum (penjumlahan, pengurangan, perkalian, pembagian).";
+  } else if (question.toLowerCase().includes("ku nikah tahun berapa")) {
+  reply = "Kemungkinan kamu akan menikah pada tahun 2027.";
   } else if (question.toLowerCase().includes("nama pacarnya hafizh siapa")) {
   reply = "Nuraini Intan Cundamani❤️";
   } else if (question.toLowerCase().includes("emang iya?")) {
